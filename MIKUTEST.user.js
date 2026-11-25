@@ -5,6 +5,7 @@
 // @version      1.0
 // @match        https://progtest.fit.cvut.cz/*
 // @grant        GM_addStyle
+// @license MIT
 // ==/UserScript==
 
 /*
