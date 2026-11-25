@@ -49,12 +49,12 @@ function lerpColor(a, b, t) {
 };
 
 ri={
-  1:"https://raw.githubusercontent.com/AspergerSenior98/MIKUTEST/refs/heads/main/ratings/Goku-Staring-meme-7iskwn.jpg",
-  2:"https://raw.githubusercontent.com/AspergerSenior98/MIKUTEST/refs/heads/main/ratings/kasane-teto-sad.png",
-  3:"https://raw.githubusercontent.com/AspergerSenior98/MIKUTEST/refs/heads/main/ratings/pear.jpg",
-  4:"https://raw.githubusercontent.com/AspergerSenior98/MIKUTEST/refs/heads/main/ratings/mikuyippeee.png",
-  5:"https://raw.githubusercontent.com/AspergerSenior98/MIKUTEST/refs/heads/main/ratings/sigma.png",
-  6:"https://raw.githubusercontent.com/AspergerSenior98/MIKUTEST/refs/heads/main/ratings/thinking.png"
+  1:"https://raw.githubusercontent.com/AspergerSenior98/MIKUTEST/refs/heads/main/images/ratings/Goku-Staring-meme-7iskwn.jpg",
+  2:"https://raw.githubusercontent.com/AspergerSenior98/MIKUTEST/refs/heads/main/images/ratings/kasane-teto-sad.png",
+  3:"https://raw.githubusercontent.com/AspergerSenior98/MIKUTEST/refs/heads/main/images/ratings/pear.jpg",
+  4:"https://raw.githubusercontent.com/AspergerSenior98/MIKUTEST/refs/heads/main/images/ratings/mikuyippeee.png",
+  5:"https://raw.githubusercontent.com/AspergerSenior98/MIKUTEST/refs/heads/main/images/ratings/sigma.png",
+  6:"https://raw.githubusercontent.com/AspergerSenior98/MIKUTEST/refs/heads/main/images/ratings/thinking.png"
 }
 
 function fetchimage(t){
@@ -131,7 +131,7 @@ GM_addStyle(`
 const container = document.querySelector("div.navLink > div");
 const mainImg = document.createElement("img");
 mainImg.classList.add("mikutest");
-mainImg.src = "https://raw.githubusercontent.com/AspergerSenior98/MIKUTEST/refs/heads/main/mikutest.png";
+mainImg.src = "https://raw.githubusercontent.com/AspergerSenior98/MIKUTEST/refs/heads/main/images/misc/mikutest.png";
 const logout = document.querySelector("div.navLink  > div:nth-child(2)");
 logout.style.paddingRight = "20px";
 container.classList.add("navcontainer");
@@ -145,7 +145,7 @@ const img = document.querySelectorAll(".menuItem3 img");
 if(img.length>0){
   img.forEach(im => {
     im.style.height = "40px"
-    im.src = "https://raw.githubusercontent.com/AspergerSenior98/MIKUTEST/refs/heads/main/sideways.png" 
+    im.src = "https://raw.githubusercontent.com/AspergerSenior98/MIKUTEST/refs/heads/main/images/assignment/1.png" 
   });
 }
 const unav = document.querySelectorAll(".menuItem3:not(:has(> a)) > div");
